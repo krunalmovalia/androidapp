@@ -2,6 +2,7 @@ package com.example.a5thsemandroidtutorials.adapters;
 
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,8 +10,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.a5thsemandroidtutorials.ItemClickListener;
 import com.example.a5thsemandroidtutorials.R;
 import com.example.a5thsemandroidtutorials.model.TutorialsData;
+import com.google.android.material.card.MaterialCardView;
 
 import java.util.ArrayList;
 
@@ -19,10 +22,13 @@ public class TutorialsAdapter extends RecyclerView.Adapter<TutorialsAdapter.Tuto
 
     private Context context;
     private ArrayList<TutorialsData> list;
+    ItemClickListener itemClickListener;
+    int selectedPosition=-1;
 
-    public TutorialsAdapter(Context context, ArrayList<TutorialsData> list) {
+    public TutorialsAdapter(Context context, ArrayList<TutorialsData> list, ItemClickListener itemClickListener) {
         this.context = context;
         this.list = list;
+        this.itemClickListener=itemClickListener;
     }
 
     @NonNull
@@ -35,6 +41,21 @@ public class TutorialsAdapter extends RecyclerView.Adapter<TutorialsAdapter.Tuto
     @Override
     public void onBindViewHolder(@NonNull TutorialsViewHolder holder, int position) {
         holder.txtTutorial.setText(list.get(position).getText());
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // get adapter position
+                int position=holder.getAdapterPosition();
+                // call listener
+                itemClickListener.onClick(position,list.get(position));
+                // update position
+                selectedPosition=position;
+                // notify
+                notifyDataSetChanged();
+            }
+        });
+
+
     }
 
     @Override
@@ -45,11 +66,11 @@ public class TutorialsAdapter extends RecyclerView.Adapter<TutorialsAdapter.Tuto
     public static class TutorialsViewHolder extends RecyclerView.ViewHolder {
 
         private final TextView txtTutorial;
-
         public TutorialsViewHolder(@NonNull View itemView) {
             super(itemView);
 
             txtTutorial = itemView.findViewById(R.id.txt_tutorial);
+
 
         }
     }

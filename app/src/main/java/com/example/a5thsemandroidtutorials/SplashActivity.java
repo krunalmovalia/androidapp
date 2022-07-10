@@ -15,11 +15,11 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        try
+      /*  try
         {
             Objects.requireNonNull(this.getSupportActionBar()).hide();
         }
-        catch (NullPointerException ignored){}
+        catch (NullPointerException ignored){}*/
 
         Handler h = new Handler();
         h.postDelayed(new Runnable() {
