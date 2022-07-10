@@ -11,14 +11,17 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        tools:targetApi="31"
-        android:theme="@style/MyThemeNoActionBar">
+        android:theme="@style/MyThemeNoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".DayNightActivity"
+            android:exported="false" />
         <activity
             android:name=".ToastDemoActivity"
             android:exported="false" />
         <activity
             android:name=".CalculatorDemoActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".DashboardActivity"
             android:exported="false" />

@@ -1,6 +1,5 @@
 package com.example.a5thsemandroidtutorials;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.Toolbar;
@@ -10,10 +9,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.widget.Toast;
 
 import com.example.a5thsemandroidtutorials.adapters.TutorialsAdapter;
 import com.example.a5thsemandroidtutorials.model.TutorialsData;
@@ -65,6 +60,10 @@ public class DashboardActivity extends AppCompatActivity  {
                         Intent i1 = new Intent(getApplicationContext(), ToastDemoActivity.class);
                         startActivity(i1);
                         break;
+                    case 2:
+                        Intent i2 = new Intent(getApplicationContext(), DayNightActivity.class);
+                        startActivity(i2);
+                        break;
                 }
 //                Toast.makeText(getApplicationContext(),"Position : "
 //                        +position +" || Value : "+value.toString(),Toast.LENGTH_SHORT).show();
@@ -82,9 +81,7 @@ public class DashboardActivity extends AppCompatActivity  {
         List<TutorialsData> list = new ArrayList<>();
         list.add(new TutorialsData("Calculator Demo"));
         list.add(new TutorialsData("Toast Demo"));
-        list.add(new TutorialsData("Tutorial 3"));
-        list.add(new TutorialsData("Tutorial 4"));
-        list.add(new TutorialsData("Tutorial 5"));
+        list.add(new TutorialsData("Day & Night Demo"));
         return list;
     }
 
