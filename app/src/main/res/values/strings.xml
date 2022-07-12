@@ -2,4 +2,6 @@
     <string name="app_name">5th Sem Android Tutorials</string>
     <string name="all_tutorials">All Tutorials</string>
     <string name="create_toast">Create Toast</string>
+    <string name="analog_amp_digital_clock"><![CDATA[Analog & Digital Clock.]]></string>
+    <string name="clock_demo">Clock Demo</string>
 </resources>
