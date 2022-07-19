@@ -2,6 +2,7 @@ package com.example.a5thsemandroidtutorials;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.Toolbar;
 
 import android.graphics.Color;
@@ -22,7 +23,8 @@ public class CalculatorDemoActivity extends AppCompatActivity {
     TextView tvInput, tvOutput;
     String process;
     Boolean checkBracket = false;
-    Toolbar toolbar;
+    Toolbar cToolBar;
+    AppCompatTextView txtTutorialTitle;
     AppCompatImageView imageViewBack;
 
     @Override
@@ -30,13 +32,14 @@ public class CalculatorDemoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculator_demo);
 
-        toolbar = findViewById(R.id.toolBar);
-        setSupportActionBar(toolbar);
+        cToolBar = findViewById(R.id.cToolBar);
+        setSupportActionBar(cToolBar);
         imageViewBack = findViewById(R.id.ivBack);
 
-        imageViewBack.setOnClickListener(v -> {
-            super.onBackPressed();
-        });
+        txtTutorialTitle = findViewById(R.id.txtTutorial);
+        txtTutorialTitle.setText(R.string.calc_demo);
+
+        imageViewBack.setOnClickListener(v -> super.onBackPressed());
 
 
         btn0 = findViewById(R.id.btn0);

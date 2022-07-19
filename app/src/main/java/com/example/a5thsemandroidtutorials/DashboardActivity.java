@@ -68,6 +68,10 @@ public class DashboardActivity extends AppCompatActivity  {
                         Intent i3 = new Intent(getApplicationContext(), ClockDemoActivity.class);
                         startActivity(i3);
                         break;
+                    case 4:
+                        Intent i4 = new Intent(getApplicationContext(), ControlsActivity.class);
+                        startActivity(i4);
+                        break;
                 }
 //                Toast.makeText(getApplicationContext(),"Position : "
 //                        +position +" || Value : "+value.toString(),Toast.LENGTH_SHORT).show();
@@ -87,6 +91,7 @@ public class DashboardActivity extends AppCompatActivity  {
         list.add(new TutorialsData("Toast Demo"));
         list.add(new TutorialsData("Day & Night Demo"));
         list.add(new TutorialsData("Clock Demo"));
+        list.add(new TutorialsData("Controls Demo"));
         return list;
     }
 

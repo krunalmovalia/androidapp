@@ -3,6 +3,7 @@ package com.example.a5thsemandroidtutorials;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.appcompat.widget.Toolbar;
 
@@ -14,7 +15,8 @@ import es.dmoral.toasty.Toasty;
 
 public class DayNightActivity extends AppCompatActivity {
 
-    Toolbar toolbar;
+    Toolbar cToolBar;
+    AppCompatTextView txtTutorialTitle;
     AppCompatImageView imageViewBack;
     AppCompatButton buttonDay, buttonNight;
     LinearLayoutCompat ll;
@@ -24,13 +26,14 @@ public class DayNightActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_day_night);
 
-        toolbar = findViewById(R.id.toolBar);
-        setSupportActionBar(toolbar);
+        cToolBar = findViewById(R.id.cToolBar);
+        setSupportActionBar(cToolBar);
         imageViewBack = findViewById(R.id.ivBack);
 
-        imageViewBack.setOnClickListener(v -> {
-            super.onBackPressed();
-        });
+        txtTutorialTitle = findViewById(R.id.txtTutorial);
+        txtTutorialTitle.setText(R.string.day_night_demo);
+
+        imageViewBack.setOnClickListener(v -> super.onBackPressed());
 
 
 

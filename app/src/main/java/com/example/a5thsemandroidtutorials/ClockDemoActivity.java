@@ -2,6 +2,7 @@ package com.example.a5thsemandroidtutorials;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatImageView;
+import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
@@ -9,7 +10,8 @@ import android.os.Bundle;
 public class ClockDemoActivity extends AppCompatActivity {
 
 
-    Toolbar toolbar;
+    Toolbar cToolBar;
+    AppCompatTextView txtTutorialTitle;
     AppCompatImageView imageViewBack;
 
     @Override
@@ -17,13 +19,14 @@ public class ClockDemoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_clock_demo);
 
-        toolbar = findViewById(R.id.toolBar);
-        setSupportActionBar(toolbar);
+        cToolBar = findViewById(R.id.cToolBar);
+        setSupportActionBar(cToolBar);
         imageViewBack = findViewById(R.id.ivBack);
 
-        imageViewBack.setOnClickListener(v -> {
-            super.onBackPressed();
-        });
+        txtTutorialTitle = findViewById(R.id.txtTutorial);
+        txtTutorialTitle.setText(R.string.clock_demo);
+
+        imageViewBack.setOnClickListener(v -> super.onBackPressed());
 
     }
 }

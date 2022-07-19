@@ -8,14 +8,23 @@
         <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/drawable/ic_arrow_back.xml" value="0.1205" />
         <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/layout/activity_calculator_demo.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/layout/activity_clock_demo.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/layout/activity_controls.xml" value="0.22" />
         <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/layout/activity_day_night.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/layout/activity_daya_night.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/layout/activity_display.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/layout/activity_toast_demo.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/layout/buttons.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/layout/custom_spinner_layout.xml" value="0.203125" />
+        <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/layout/custom_tollbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/layout/custom_toolbar.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/layout/input_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/layout/item_card_list.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Krunal/AndroidStudioProjects/5thSemAndroidTutorials/app/src/main/res/menu/option_menu.xml" value="0.203125" />
+        <entry key="..\:/Users/Krunal/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Krunal/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

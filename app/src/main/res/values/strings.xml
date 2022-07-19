@@ -4,4 +4,19 @@
     <string name="create_toast">Create Toast</string>
     <string name="analog_amp_digital_clock"><![CDATA[Analog & Digital Clock.]]></string>
     <string name="clock_demo">Clock Demo</string>
+    <string name="tutorial_name">Tutorial Name</string>
+    <string name="toast_demo">Toast Demo</string>
+    <string name="day_night_demo"><![CDATA[Day & Night Demo]]></string>
+    <string name="calc_demo">Calculator Demo</string>
+    <string name="controls_demo">Controls Demo</string>
+
+
+    <string-array name="branch">
+        <item>Select - Branch</item>
+        <item>CE</item>
+        <item>EE</item>
+        <item>IT</item>
+        <item>ME</item>
+    </string-array>
+
 </resources>
