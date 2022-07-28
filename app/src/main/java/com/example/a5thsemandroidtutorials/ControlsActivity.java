@@ -70,7 +70,7 @@ public class ControlsActivity extends AppCompatActivity {
                     Email.requestFocus();
                 }
                 else if (Age.getText().toString().trim().isEmpty()){
-                    Age.setError("Please enter your");
+                    Age.setError("Please enter your Age");
                     Age.requestFocus();
                 }
                 else {

@@ -10,7 +10,6 @@
     <string name="calc_demo">Calculator Demo</string>
     <string name="controls_demo">Controls Demo</string>
 
-
     <string-array name="branch">
         <item>Select - Branch</item>
         <item>CE</item>
@@ -19,4 +18,52 @@
         <item>ME</item>
     </string-array>
 
+    <!--    Tutorial 01-->
+    <string name="welcome_to_rk_university">Welcome to RK University</string>
+
+    <!--    Tutorial 02-->
+    <string name="_21soece13085">21SOECE13085</string>
+    <string name="middle_name_pravinbhai">Middle Name : Pravinbhai</string>
+    <string name="first_name_krunal">First Name : Krunal</string>
+    <string name="last_name_movalia">Last Name : Movalia</string>
+    <string name="email_kmovalia383_rku_ac_in">Email : kmovalia383@rku.ac.in</string>
+
+
+    <string-array name="city">
+        <item>Select - City</item>
+        <item>Ahmedabad</item>
+        <item>Surat</item>
+        <item>Vadodara</item>
+        <item>Rajkot</item>
+        <item>Bhavnagar</item>
+        <item>Jamnagar</item>
+    </string-array>
+
+    <string name="login">LOGIN</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="welcome">Welcome,</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="enter_your_last_name">Enter Your Last Name</string>
+    <string name="enter_your_first_name">Enter Your First Name</string>
+    <string name="branch_ce_it">Branch CE/IT</string>
+    <string name="profile_status">Profile Status</string>
+    <string name="active">Active</string>
+    <string name="inactive">InActive</string>
+    <string name="active_inactive">Active / InActive</string>
+    <string name="register">Register</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="city">City</string>
+    <string name="status">Status</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="city_rajkot">City : Rajkot</string>
+    <string name="tutorial02">Tutorial 2</string>
+    <string name="tutorial01">Tutorial 1</string>
+    <string name="welcome_">Welcome</string>
 </resources>

@@ -11,6 +11,11 @@
     <color name="orange_shade">#E3CAA5</color>
 
     <color name="white">#FFFFFFFF</color>
+    <color name="red_shade">#FFDEDE</color>
+    <color name="red">#F44336</color>
+    <color name="custom_card_color">#94B49F</color>
+    <color name="bg">#CEE5D0</color>
+
 
 
 </resources>

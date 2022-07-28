@@ -12,6 +12,8 @@ import android.os.Bundle;
 
 import com.example.a5thsemandroidtutorials.adapters.TutorialsAdapter;
 import com.example.a5thsemandroidtutorials.model.TutorialsData;
+import com.example.a5thsemandroidtutorials.tutorials.Tutorial01Activity;
+import com.example.a5thsemandroidtutorials.tutorials.Tutorial02Activity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -72,6 +74,18 @@ public class DashboardActivity extends AppCompatActivity  {
                         Intent i4 = new Intent(getApplicationContext(), ControlsActivity.class);
                         startActivity(i4);
                         break;
+                    case 5:
+                        Intent i5 = new Intent(getApplicationContext(), Tutorial01Activity.class);
+                        startActivity(i5);
+                        break;
+                    case 6:
+                        Intent i6 = new Intent(getApplicationContext(),Tutorial02Activity.class);
+                        startActivity(i6);
+                        break;
+                    case 7:
+                        Intent i7 = new Intent(getApplicationContext(), com.example.a5thsemandroidtutorials.tutorials.SplashActivity.class);
+                        startActivity(i7);
+                        break;
                 }
 //                Toast.makeText(getApplicationContext(),"Position : "
 //                        +position +" || Value : "+value.toString(),Toast.LENGTH_SHORT).show();
@@ -92,6 +106,9 @@ public class DashboardActivity extends AppCompatActivity  {
         list.add(new TutorialsData("Day & Night Demo"));
         list.add(new TutorialsData("Clock Demo"));
         list.add(new TutorialsData("Controls Demo"));
+        list.add(new TutorialsData("Tutorial 1"));
+        list.add(new TutorialsData("Tutorial 2"));
+        list.add(new TutorialsData("Tutorial 3,4 & 5"));
         return list;
     }
 

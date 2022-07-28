@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tutorials.Tutorial01Activity"
+    android:background="@color/red_shade"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/tb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/custom_toolbar"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtWcRKU"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/welcome_to_rk_university"
+        android:textColor="@color/red"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:shadowColor="@color/black_shade"
+        android:shadowRadius="5"
+        android:shadowDx="10"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
